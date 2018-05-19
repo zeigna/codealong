@@ -1,0 +1,38 @@
+.contact {
+	position: relative;
+	height: 100vh;
+	padding-top: 300px;
+	color: white;
+	margin-bottom: 0;
+	/*background-image: url();*/
+	/*background-size: cover;*/
+	background-color: #2d3446;
+	text-align:center;
+	padding-bottom: 0px;
+
+}
+
+.contact .content{
+	text-align: center;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+
+}
+
+.contact .email {
+	font-size: .5em;
+	color: white;
+	text-decoration: none;
+}
+
+.contact .socialbar{
+	display: inline-block;
+	font-size: 3em;
+	color: white;
+	margin-right: 20px;
+
+}
+
+
+

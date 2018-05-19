@@ -1,0 +1,63 @@
+@media (max-width: 700px){
+	.resume {
+		height: 150vh;
+
+		}
+
+	}
+
+
+@media (max-width: 375px){
+	.resume {
+		height: 150vh;
+
+		}
+
+	header .menuicon {
+		display: block;
+	}
+	header .links{
+		display: none;
+		background-color: #5b6474;
+	}
+
+	header .links a {
+		display: block;
+		background-color: #5b6474
+	}
+
+	header .menuicon:hover ~ .links{
+		display: block;
+		height: 250px;
+	}
+
+	header .links:hover{
+		display: block;
+		height: 250px;
+	}
+	
+	.aboutme .content h1{
+		font-size: 4em;
+
+	}
+
+	.portfolio h2 {
+		font-size: 2em;
+
+	}
+
+	.portfolio h3 {
+		font-size: 1.5em;
+	}
+
+	.contact .content .email {
+		font-size: 1.5em;
+	}
+
+	.contact .content .socialbar {
+		font-size: .7em;
+	}
+
+
+
+}

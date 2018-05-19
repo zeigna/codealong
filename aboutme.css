@@ -1,0 +1,41 @@
+.aboutme {
+	position: relative;
+	height: 100vh; /*viewport height*/
+	width: 100%;
+	background-image: url("../images/working.jpg");
+	background-size: cover;	
+
+}
+/*
+.aboutme::after {
+	content: " ";
+	position: absolute;
+	top:0px;
+	left:0px;
+	width: 100%;
+	height:100%;
+	background-color: rgba(0, 0, 0, 1);
+}*/
+
+.aboutme .content{
+	position: absolute;
+/*	top: 50%;
+	left: 50%;
+	transform: translateY(-50%) translateX(-50%);*/
+	z-index: 1;
+	letter-spacing: .1em;
+}
+
+.aboutme .content p{
+	color: blue;
+	font-size: 2em;
+
+}
+
+.aboutme .content b {
+	color: #1fce46;
+}
+
+
+
+

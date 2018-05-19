@@ -1,0 +1,68 @@
+body, p, h1, h2, h3, h4 {
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	font-family: 'Fira Sans', sans-serif;
+
+}
+.logo {
+	display: block;
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	background-color: red;
+	text-align: center;
+	line-height: 100px; /* set to the height of the parent element*/
+	color: white;
+	font-size: 5em;
+}
+
+
+.logo::after {
+	content: "S";
+
+}
+
+.logo.small {
+	transform:scale(.5);
+}
+h1{
+	/*position: absolute;*/
+	/*left: 50%;*/
+	font-size: 5em;
+	text-transform: uppercase;
+	color: red;
+	/*transform: translateX(-50%);*/
+	/*transform: translateZ(10px);*/
+	/*z-index: 10;*/
+
+
+}
+
+h2 {
+	font-size: 6em;
+}
+
+h2 b{
+	color: #b5bfce;
+}
+
+h3 {
+	font-size: 2em;
+}
+
+h3 a{
+	color: #b5bfce;
+	text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
